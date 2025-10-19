@@ -28,7 +28,6 @@ class TaskController extends Controller
     {
         $data = $request->validate(['status' => 'required|in:pending,in-progress,done']);
         $task = $this->service->updateStatus($task, $data['status']);
-        // return response()->json(['success' => true, 'task' => $task]);
         return redirect()->back()->with('success', 'Task updated successfully!');
     }
 

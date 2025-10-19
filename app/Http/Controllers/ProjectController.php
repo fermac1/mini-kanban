@@ -23,7 +23,6 @@ class ProjectController extends Controller
     }
     public function show(Project $project)
     {
-        // Load tasks + assigned user
         $project->load(['tasks.assignee']);
 
         return Inertia::render('Kanban/Board', [
