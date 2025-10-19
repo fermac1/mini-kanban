@@ -74,18 +74,30 @@ php artisan migrate
 php artisan queue:work
 
 ```
-6. **Test**
+6. **Cron setup**
+*Open crontab*
+```bash
+crontab -e
+```
+*copy this into the file*
+```bash
+* * * * * cd /full/path/to/mini-kanban && php artisan schedule:run >> /dev/null 2>&1
+
+```
+
+7. **Test**
 
 ```bash
+
 php artisan test
 ```
-6. **Run Frontend**
+8. **Run Frontend**
 
 ```bash
 npm run dev
 ```
 
-6. **Run server**
+9. **Run server**
 
 ```bash
 php artisan serve
