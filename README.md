@@ -74,7 +74,7 @@ php artisan migrate
 php artisan queue:work
 
 ```
-6. **Cron setup**
+6. **Cron setup** <br>
 *Open crontab*
 ```bash
 crontab -e
