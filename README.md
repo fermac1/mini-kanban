@@ -2,7 +2,6 @@
 
 A simple Kanban task management app built with Laravel 10, Inertia.js and React.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ A simple Kanban task management app built with Laravel 10, Inertia.js and React.
 - Dashboard and Reports pages
 - Background job processing with Laravel queues
 
----
 
 ## Included
 
@@ -25,7 +23,6 @@ A simple Kanban task management app built with Laravel 10, Inertia.js and React.
 - `.env.example` for environment setup
 
 
----
 
 ## Requirements
 
@@ -35,7 +32,6 @@ A simple Kanban task management app built with Laravel 10, Inertia.js and React.
 - Database (MySQL, SQLite, etc.)
 - Laravel 10 dependencies
 
----
 
 ## Installation & Setup
 
